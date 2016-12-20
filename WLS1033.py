@@ -11,7 +11,7 @@ def consulta_art():
 	#Manejo de JsonArray
 	#arreglos iniciados con valores random
 	array=[3]
-	Json=[0,"hola","ciao",array]
+	Json=[array]
 	def urlapp():
 		#URL average response time
 		url ="http://10.43.11.143:8090/controller/rest/applications/Portales/metric-data?metric-path=Business%20Transaction%20Performance|Business%20Transactions|WLS1033|APP|Average%20Response%20Time%20%28ms%29&time-range-type=BEFORE_NOW&duration-in-mins=15&output=json"
