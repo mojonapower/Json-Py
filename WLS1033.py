@@ -9,7 +9,7 @@ def CreaArchivo():
 
 def consulta_art():
 	#Manejo de JsonArray
-	#arreglos iniciados con valores random
+	
 	array=[3]
 	Json=[array]
 	def urlapp():
