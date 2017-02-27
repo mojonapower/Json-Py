@@ -10,7 +10,7 @@ def CreaArchivo():
 def consulta_art():
 	#Manejo de JsonArray
 	
-	array=[3]
+	array=[]
 	Json=[array]
 	def urlapp():
 		#URL average response time
